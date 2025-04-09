@@ -4,7 +4,6 @@ Nome:NeoAnime
 Na segunada página na parte de cima seria a barra de pesquisa de animes e mangas e abaixo os gêneros de animes e mangas
 Na terceira página estaria os mangas mais avaliados, populares
 Paleta de cores: Cor principal branco e  cor secundária: azul
-Icon: olho azul relista
 
 
 

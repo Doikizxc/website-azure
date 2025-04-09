@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime & Mangá Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #000;
+    }
+    nav {
+      background-color: #007BFF;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+    }
+    section {
+      padding: 2rem;
+    }
+    h1 {
+      color: #007BFF;
+    }
+    .search-bar {
+      margin-bottom: 1rem;
+    }
+    input[type="text"] {
+      padding: 0.5rem;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #007BFF;
+      border-radius: 5px;
+    }
+    .genres {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .genre {
+      background-color: #007BFF;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#pagina1" style="color: white; text-decoration: none;">Animes</a>
+    <a href="#pagina2" style="color: white; text-decoration: none;">Pesquisar</a>
+    <a href="#pagina3" style="color: white; text-decoration: none;">Mangás</a>
+  </nav>
+
+  <!-- Página 1: Animes -->
+  <section id="pagina1">
+    <h1>Animes</h1>
+    <h2>Mais Avaliados</h2>
+    <p>Lista dos animes com maiores avaliações.</p>
+    <h2>Récem Lançados</h2>
+    <p>Últimos lançamentos no mundo dos animes.</p>
+    <h2>Populares</h2>
+    <p>Animes que estão em alta no momento.</p>
+  </section>
+
+  <!-- Página 2: Pesquisa e Gêneros -->
+  <section id="pagina2">
+    <h1>Pesquisar</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar animes ou mangás..." />
+    </div>
+    <h2>Gêneros</h2>
+    <div class="genres">
+      <div class="genre">Ação</div>
+      <div class="genre">Comédia</div>
+      <div class="genre">Drama</div>
+      <div class="genre">Fantasia</div>
+      <div class="genre">Romance</div>
+      <div class="genre">Terror</div>
+      <div class="genre">Esporte</div>
+      <!-- Adicione mais gêneros se quiser -->
+    </div>
+  </section>
+
+  <!-- Página 3: Mangás -->
+  <section id="pagina3">
+    <h1>Mangás</h1>
+    <h2>Mais Avaliados</h2>
+    <p>Lista dos mangás com maiores avaliações.</p>
+    <h2>Populares</h2>
+    <p>Mangás mais populares atualmente.</p>
+  </section>
+</body>
+</html>
